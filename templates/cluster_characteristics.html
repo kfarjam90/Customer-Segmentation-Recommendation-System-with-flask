@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cluster Characteristics</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Cluster Characteristics</h1>
+        <a href="/" class="btn btn-secondary mb-4">Back to Dashboard</a>
+        
+        <div class="card mb-4">
+            <div class="card-body">
+                <img src="data:image/png;base64,{{ plot_url }}" class="img-fluid" alt="Cluster Characteristics">
+            </div>
+        </div>
+
+        <!-- Cluster Descriptions -->
+        <div class="card mb-3 border-primary">
+            <div class="card-body">
+                <h4 class="text-danger">Cluster 0 (Red Chart)</h4>
+                <p>🎯 <strong>Profile:</strong> <strong>Frequent High-Spenders with a High Rate of Cancellations</strong></p>
+                <ul>
+                    <li>Customers in this cluster are high spenders with a very high total spend, and they purchase a wide variety of unique products.</li>
+                    <li>They engage in frequent transactions, but also have a high cancellation frequency and rate.</li>
+                    <li>These customers have a very low average time between purchases, and they tend to shop early in the day (low Hour value).</li>
+                    <li>Their monthly spending shows high variability, indicating that their spending patterns might be less predictable compared to other clusters.</li>
+                    <li>Despite their high spending, they show a low spending trend, suggesting that their high spending levels might be decreasing over time.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card mb-3 border-success">
+            <div class="card-body">
+                <h4 class="text-success">Cluster 1 (Green Chart)</h4>
+                <p>🎯 <strong>Profile:</strong> <strong>Infrequent Big Spenders with a High Spending Trend</strong></p>
+                <ul>
+                    <li>Customers in this cluster show a moderate level of spending, but their transactions are not very frequent, as indicated by the high Days_Since_Last_Purchase and Average_Days_Between_Purchases.</li>
+                    <li>They have a very high spending trend, indicating that their spending has been increasing over time.</li>
+                    <li>These customers prefer shopping late in the day, as indicated by the high Hour value, and they mainly reside in the UK.</li>
+                    <li>They have a tendency to cancel a moderate number of transactions, with a medium cancellation frequency and rate.</li>
+                    <li>Their average transaction value is relatively high, meaning that when they shop, they tend to make substantial purchases.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card mb-3 border-danger">
+            <div class="card-body">
+                <h4 class="text-primary">Cluster 2 (Blue Chart)</h4>
+                <p>🎯 <strong>Profile:</strong> <strong>Sporadic Shoppers with a Preference for Weekend Shopping</strong></p>
+                <ul>
+                    <li>Customers in this cluster tend to spend less, with a lower number of transactions and products purchased.</li>
+                    <li>They have a slight tendency to shop during the weekends, as indicated by the very high Day_of_Week value.</li>
+                    <li>Their spending trend is relatively stable but on the lower side, and they have a low monthly spending variation (low Monthly_Spending_Std).</li>
+                    <li>These customers have not engaged in many cancellations, showing a low cancellation frequency and rate.</li>
+                    <li>The average transaction value is on the lower side, indicating that when they do shop, they tend to spend less per transaction.</li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
