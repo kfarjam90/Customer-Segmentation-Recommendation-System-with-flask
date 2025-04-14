@@ -20,7 +20,7 @@ This project is a web application that performs customer segmentation analysis o
 
 ### Demo Video
 
-[![Watch the demo video](image.png)](https://www.youtube.com/watch?v=LWqNU1rsY_w)
+[![Watch the demo video](image.png)](https://www.youtube.com/watch?v=b9L0cvo7Nws)
 
 ## 🧰 Technologies Used
 
@@ -38,8 +38,6 @@ This project is a web application that performs customer segmentation analysis o
 - Plotly.js (interactive charts)  
 
 ---
-
-## ⚙️ Installation
 
 1. **Clone the repository:**
 
