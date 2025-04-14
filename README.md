@@ -18,6 +18,10 @@ This project is a web application that performs customer segmentation analysis o
 
 ---
 
+### Demo Video
+
+[![Watch the demo video](image.png)](https://www.youtube.com/watch?v=LWqNU1rsY_w)
+
 ## 🧰 Technologies Used
 
 ### Backend
