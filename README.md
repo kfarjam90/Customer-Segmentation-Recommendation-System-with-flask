@@ -1,4 +1,4 @@
-# 🛍️ Customer Segmentation Analysis Web Application
+# 🛍️ Customer Segmentation Analysis Web Application 
 
 ## 📌 Overview
 
